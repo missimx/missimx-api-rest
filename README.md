@@ -144,7 +144,7 @@ cancelOrder()
 			site_id: 1,
 			sign: the result of signing the request parameter with api_secret,			
 			sign_type:Use api_secret to sign the request parameters,which is currently supporting MD5, HmacSHA256.Please note that they are case sensitive, and the signature method is described separately.			
-			symbol: the name of the trading pair，such as BTCCNY、LTCCNY、ETHCNY ,
+			symbol: the name of the trading pair，such as BTCUSDT、LTCUSDT、ETHUSDT ,
 			timestamp:timestamp, note: Some systems take the value of milliseconds and need to convert to seconds (10 digits). The system determines that the error is within 10 seconds of the legal timestamp.
 }	
 		response：
@@ -268,7 +268,7 @@ getSingleOrderDetail()
 		method:get
 		
 		request:
-			symbol:the name of the trading pair, such as BTCCNY,LTCCNY,ETHCNY
+			symbol:the name of the trading pair, such as BTCUSDT,LTCUSDT,ETHUSDT
 			id:order id
 			api_key: api_key can generate the API key in Account, 
 			timestamp: timestamp, note: some of the vaule system to take the value of milliseconds, need to be converted into seconds (10 digits), the system determines the error of plus or minus 10 seconds as the legal timestamp. ,
@@ -305,7 +305,7 @@ getOrderList()
 		method:get
 		
 		request:
-			symbol:the name of the trading pair, such as BTCCNY, LTCCNY, ETHCNY
+			symbol:the name of the trading pair, such as BTCUSDT, LTCUSDT, ETHUSDT
 			page：page, starting as 1
 			pageSize：number of records per page, up to 20, arranged in reverse chronological order by default
 			status 0 is pending (open order), 1 is (including canceled), 2 is all
