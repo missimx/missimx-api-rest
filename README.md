@@ -51,7 +51,7 @@
 		3. data: data, see interface description 
 	
 
-- 3.The URL prefix in this example is: https://www.missimx.com
+- 3.The URL prefix in this example is: https://www.missimx.com 
 
  
 ## Interface Description
