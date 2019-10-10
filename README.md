@@ -33,7 +33,7 @@
 			STOP_BUY_EX: suspend buying
 			STOP_SELL_EX: suspend selling
 			ILLEGAL_PRICE_PRECISION: price decimal is not accurate			
-			ILLEGAL_VOLUME_PRECISION: amount decimal is not accurate			
+			ILLEGAL_VOLUME_PRECISION: amount decimal is not accurate 			
 			NO_SUFFICIENT_FUNDS: insufficient balances			
 			ILLEGAL_CURRENCY: cryptocurrency does not exist
 			CANNOT_WITHDRAW: withdrawals for the current cryptocurrency is suspended
